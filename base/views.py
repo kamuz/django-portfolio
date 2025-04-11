@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'base/home.html')
+    return render(request, 'base/index.html')
 
 def posts(request):
     return render(request, 'base/posts.html')
